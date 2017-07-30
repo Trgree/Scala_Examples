@@ -14,7 +14,7 @@ object MapTest {
  // + 多个
  m ++ m2                                          //> res5: scala.collection.immutable.Map[Int,String] = Map(1 -> a, 2 -> b, 3 -> 
                                                   //| c, 4 -> d)
- m ++ List(6->"f",7 -> "g")                       //> res6: scala.collection.immutable.Map[Int,String] = Map(1 -> a, 2 -> b, 6 -> 
+ m ++ List(6->"f" ,7 -> "g")                      //> res6: scala.collection.immutable.Map[Int,String] = Map(1 -> a, 2 -> b, 6 -> 
                                                   //| f, 7 -> g)
  // -多个
  m -- List(1,2,3)                                 //> res7: scala.collection.immutable.Map[Int,String] = Map()
